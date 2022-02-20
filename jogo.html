@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combate elemental</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="codigo.js"></script>
+</head>
+<body>
+    <header>
+        <div id="menu">
+            <a href="menu.html"> Menu </a>
+            <a href="jogo.html"> Jogo </a>
+            <a href="tutorial.html">Tutorial </a>
+            <a href="donate.html"> Donate </a>
+            <button onclick="gerar_mao()">Teste</button>
+        </div>
+    </header>
+
+    <img src="fundo.png" alt="" id="fundo">
+
+    <!-- NAO BOTA IMAGEM ANTES DISSO, OBRIGADO! =D -->
+    <div id="mao">
+        <div id="mao0" class="cartas"></div>
+        <div id="mao1" class="cartas" onclick="jogar(1)"></div>
+        <div id="mao2" class="cartas" onclick="jogar(2)"></div>
+        <div id="mao3" class="cartas" onclick="jogar(3)"></div>
+        <div id="mao4" class="cartas" onclick="jogar(4)"></div>
+        <div id="mao5" class="cartas" onclick="jogar(5)"></div>
+    </div>
+
+    <!-- Poderes -->
+    <div id="pow0" class="pow"></div>
+    <div id="poderes">
+        <div id="pow1" class="pow" onclick="jogar(1)"></div>
+        <div id="pow2" class="pow" onclick="jogar(2)"></div>
+        <div id="pow3" class="pow" onclick="jogar(3)"></div>
+        <div id="pow4" class="pow" onclick="jogar(4)"></div>
+        <div id="pow5" class="pow" onclick="jogar(5)"></div>
+    </div>
+
+    <div id="resultados_poderes">
+        <div id="res_pow2"></div>
+        <div id="res_pow1"></div>
+    </div>
+
+    <div id="poderes_ativos"></div>
+
+    <div id="resultados">
+        <!-- Player 2 -->
+        <div>
+            <p id="2res_W"></p>
+            <p id="2res_F"></p>
+            <p id="2res_S"></p>
+        </div>
+
+        <!-- Player 1 -->
+        <div>
+            <p id="1res_W"></p>
+            <p id="1res_F"></p>
+            <p id="1res_S"></p>
+        </div>
+    </div>
+
+    
+    <div id="res_p2" class="print_resultados">
+        
+    </div>
+    <div id="res_p1" class="print_resultados">
+        
+    </div>
+    
+</body>
+</html>

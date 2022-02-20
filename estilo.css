@@ -1,0 +1,212 @@
+body{
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-color: blue;
+}
+
+header{
+    background-color: red;
+    width: 99vw;
+    height: 6vw;
+}
+
+#fundo{
+    position: absolute;
+    top: 0px;
+    left: 208px;
+    /* max-width: 1207px;
+    height: auto; */
+    max-width: 76%;
+    height: auto;
+    z-index: -1;
+}
+
+#madeira-horizontal-top{
+    position: absolute;
+    top: 0px;
+    left: -10px;
+    width: 1700px;
+    height: max-content;
+    z-index: 1;
+}
+
+#madeira-horizontal-bot{
+    position: absolute;
+    top: 94px;
+    left: 0px;
+    width: 1700px;
+    height: max-content;
+    z-index: 1;
+}
+
+#madeira-vertical-left{
+    position: absolute;
+    width: max-content;
+    height: 125px;
+    top: -15px;
+    left: 0px;
+    z-index: 1;
+}
+
+#madeira-vertical-right{
+    position: absolute;
+    width: max-content;
+    height: 125px;
+    top: -30px;
+    right: 0px;
+    z-index: 1;
+    transform: rotate(180deg);
+}
+
+div#menu{
+    position: relative;
+    width: 99vw;
+    top: 50px;
+    left: 50px;
+}
+
+div#mao{
+    position: relative;
+    top: 446px;
+    left: 240px;
+    height: 187px;
+    width: 71vw;
+}
+
+div#mao div.cartas{
+    height: 124px;
+    width: 112px;
+    font-size: 0px;
+}
+
+div#mao img{
+    height: 124px;
+    width: 112px;
+}
+
+#mao0{
+    position: absolute;
+    top: -300px;
+    left: 420px;
+}
+#mao1{
+    position: absolute;
+    top: 59px;
+    left: 490px;
+}
+
+#mao2{
+    position: absolute;
+    top: 59px;
+    left: 610px;
+}
+
+#mao3{
+    position: absolute;
+    top: 59px;
+    left: 730px;
+}
+
+#mao4{
+    position: absolute;
+    top: 59px;
+    left: 850px;
+}
+
+#mao5{
+    position: absolute;
+    top: 59px;
+    left: 970px;
+}
+
+#poderes{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    width: 589px;
+    height: 45px;
+    right: 240px;
+    bottom: 106px;
+}
+
+.pow{
+    height: 60px;
+    width: 50px;
+}
+
+#poderes img{
+    width: 50px;
+    height: auto;
+}
+
+#pow0{
+    position: absolute;
+    opacity: 0;
+}
+
+
+
+#resultados_poderes{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: 155px;
+    right: 667px;
+    width: 240px;
+    height: 65px;
+}
+
+#poderes_ativos{
+    position: absolute;
+    display: flex;
+    top: 160px;
+    right: 755px;
+    width: 85px;
+    height: 70px;
+}
+
+#resultados{
+    position: absolute;
+    display: flex;
+    top: 117px;
+    left: -360px;
+    width: 261px;
+    height: 87px;
+}
+
+#resultados img{
+    height: auto;
+    width: 76px;
+}
+
+#resultados div{
+    display: flex;
+    margin-left: 610px;
+}
+
+#resultados p{
+    margin: 5px;
+    height: 77px;
+    width: 77px;
+}
+
+#res_p2 {
+    position: absolute;
+    display: flex;
+    height: 85px;
+    width: 270px;
+    left: 255px;
+    top: 260px;
+}
+
+#res_p1 {
+    position: absolute;
+    display: flex;
+    height: 85px;
+    width: 270px;
+    right: 202px;
+    top: 260px;
+}
+.print_resultados img{
+    margin: 2px;
+}
